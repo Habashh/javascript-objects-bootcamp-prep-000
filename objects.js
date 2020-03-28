@@ -14,10 +14,6 @@ function removeFromPlaylist(obj, key){
   return obj
 }
 
-removeFromPlaylist(playlist,"Slowdive")
-
-  delete playlist.artistName
-}
 
 removeFromPlaylist(playlist,"artistName")
 
